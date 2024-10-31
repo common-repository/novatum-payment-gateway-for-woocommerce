@@ -1,0 +1,315 @@
+
+2021-03-17 04:25:50 :: ====Start Log====
+Info: Beginning payment at payment gateway server
+====End Log====
+
+
+2021-03-17 04:25:50 :: ====Start Log====
+Info: Beginning Payment at Merchant side
+====End Log====
+
+
+2021-03-17 04:25:53 :: ====Start Log====
+{"apiType":"Payment at merchant","httpResponseCode":200,"response":{"responseTime":"2021-03-17 04:25:53","result":{"resultCode":"1","resultMessage":"Transaction completed successfully.","errorId":null,"error":[{"errorCode":"1","errorMessage":"Transaction completed successfully.","advice":null}],"reasonCode":"1"},"signature":"xbYzpXsJzo4abHUc1gvUSsCmnxzAANTiNHYseN7bjm0=","metaData":null,"txId":"e9ecbf87-39b3-4890-971f-60f5303d8e6a","txTypeId":"3","txType":"PURCHASE","recurrentTypeId":"1","requestId":"MTI3LjAuMC4xWPORDER_162","orderId":"MTI3LjAuMC4xWPORDER_162","sourceAmount":{"amount":"18.0000","currencyCode":"INR"},"amount":{"amount":"0.2484","currencyCode":"USD"},"returnUrl":null,"cancelUrl":null,"ccNumber":"411111xxxxxx1111","cardId":null,"destCCNumber":null,"redirect3DUrl":null,"payUrl":null}}
+====End Log====
+
+
+2021-03-17 04:25:56 :: ====Start Log====
+{"apiType":"after payment at merchant","return url":"?page_id=61&responseTime=2021-03-17 04:25:53&txId=e9ecbf87-39b3-4890-971f-60f5303d8e6a&txTypeId=3&recurrentTypeId=1&requestId=MTI3LjAuMC4xWPORDER_162&orderId=MTI3LjAuMC4xWPORDER_162&sourceAmount=&sourceCurrencyCode=&amount=0.2484&cyCode=USD&resultCode=1&message=Transaction completed successfully.&resultReasonCode=1&ccNumber=&cardId=&signature=xbYzpXsJzo4abHUc1gvUSsCmnxzAANTiNHYseN7bjm0=&errorCode0=1&errorMessage0=Transaction completed successfully.&errorAdvice0="}
+====End Log====
+
+
+2021-03-17 04:25:57 :: ====Start Log====
+{"Order Id":"162","Order Number":"162","Order Date":{"date":"2021-03-17 04:25:44.000000","timezone_type":1,"timezone":"+00:00"},"order status":"1","Transaction Id":"e9ecbf87-39b3-4890-971f-60f5303d8e6a","Transaction_type":"3","Recurrent Type":"1","ccnum":"","novatum Charge":"0.2484","Charge Currency":null}
+====End Log====
+
+
+2021-03-17 04:30:37 :: ====Start Log====
+Info: Beginning refund for order 162 for the amount of 10.00
+====End Log====
+
+
+2021-03-17 04:30:40 :: ====Start Log====
+{"apiType":"Refund","httpResponseCode":200,"response":{"responseTime":"2021-03-17 04:30:40","result":{"resultCode":"1","resultMessage":"Transaction completed successfully.","errorId":null,"error":null,"reasonCode":"1"},"signature":"4QkWCGoeGdLwK0brfsrJyNW8A68QBIW4tfyM1QiGPOk=","txId":"0cd54016-df2c-487f-b963-18b045e8b333","txTypeId":"5","txType":"REFUND","recurrentTypeId":"1","requestId":"3_WPREFUNDORDER_162","orderId":"MTI3LjAuMC4xWPORDER_162","sourceAmount":{"amount":"10.0000","currencyCode":"INR"},"amount":{"amount":"0.1380","currencyCode":"USD"},"ccNumber":"411111xxxxxx1111","cardId":null,"destCCNumber":null,"previousTxId":"e9ecbf87-39b3-4890-971f-60f5303d8e6a"}}
+====End Log====
+
+
+2021-03-17 06:54:41 :: ====Start Log====
+{"Order Id":"162","Order Number":"162","Order Date":{"date":"2021-03-17 04:25:44.000000","timezone_type":1,"timezone":"+00:00"},"order status":"1","Transaction Id":"e9ecbf87-39b3-4890-971f-60f5303d8e6a","Transaction_type":"3","Recurrent Type":"1","ccnum":"","novatum Charge":"0.2484","Charge Currency":null}
+====End Log====
+
+
+2021-03-17 07:25:30 :: ====Start Log====
+Info: Beginning payment at payment gateway server
+====End Log====
+
+
+2021-03-17 07:25:30 :: ====Start Log====
+Info: Beginning Payment at Merchant side
+====End Log====
+
+
+2021-03-17 07:25:33 :: ====Start Log====
+{"apiType":"Payment at merchant","httpResponseCode":200,"response":{"responseTime":"2021-03-17 07:25:33","result":{"resultCode":"1","resultMessage":"Transaction completed successfully.","errorId":null,"error":[{"errorCode":"1","errorMessage":"Transaction completed successfully.","advice":null}],"reasonCode":"1"},"signature":"7w9AKUNJjRg6af5mcH+K6ZwfNiBSKbHM1nEwk369rE4=","metaData":null,"txId":"0b573d65-0e5d-4bd0-af28-5dbcf7363a1a","txTypeId":"3","txType":"PURCHASE","recurrentTypeId":"1","requestId":"MTI3LjAuMC4xWPORDER_164","orderId":"MTI3LjAuMC4xWPORDER_164","sourceAmount":{"amount":"18.0000","currencyCode":"INR"},"amount":{"amount":"0.2484","currencyCode":"USD"},"returnUrl":null,"cancelUrl":null,"ccNumber":"411111xxxxxx1111","cardId":null,"destCCNumber":null,"redirect3DUrl":null,"payUrl":null}}
+====End Log====
+
+
+2021-03-17 07:25:37 :: ====Start Log====
+{"apiType":"after payment at merchant","return url":"?page_id=61&responseTime=2021-03-17 07:25:33&txId=0b573d65-0e5d-4bd0-af28-5dbcf7363a1a&txTypeId=3&recurrentTypeId=1&requestId=MTI3LjAuMC4xWPORDER_164&orderId=MTI3LjAuMC4xWPORDER_164&sourceAmount=&sourceCurrencyCode=&amount=0.2484&cyCode=USD&resultCode=1&message=Transaction completed successfully.&resultReasonCode=1&ccNumber=&cardId=&signature=7w9AKUNJjRg6af5mcH+K6ZwfNiBSKbHM1nEwk369rE4=&errorCode0=1&errorMessage0=Transaction completed successfully.&errorAdvice0="}
+====End Log====
+
+
+2021-03-17 07:25:40 :: ====Start Log====
+{"Order Id":"164","Order Number":"164","Order Date":{"date":"2021-03-17 07:25:21.000000","timezone_type":1,"timezone":"+00:00"},"order status":"1","Transaction Id":"0b573d65-0e5d-4bd0-af28-5dbcf7363a1a","Transaction_type":"3","Recurrent Type":"1","ccnum":"","novatum Charge":"0.2484","Charge Currency":null}
+====End Log====
+
+
+2021-03-17 07:26:47 :: ====Start Log====
+Info: Beginning refund for order 164 for the amount of 5.00
+====End Log====
+
+
+2021-03-17 07:26:49 :: ====Start Log====
+{"apiType":"Refund","httpResponseCode":200,"response":{"responseTime":"2021-03-17 07:26:49","result":{"resultCode":"1","resultMessage":"Transaction completed successfully.","errorId":null,"error":null,"reasonCode":"1"},"signature":"OpDqeh5niH8DpbUeCo5hZEXKoabSAI2rO+h\/xcIMSzQ=","txId":"90e24c6d-81c1-41e5-90e0-a5f9cc3f8836","txTypeId":"5","txType":"REFUND","recurrentTypeId":"1","requestId":"3_WPREFUNDORDER_164","orderId":"MTI3LjAuMC4xWPORDER_164","sourceAmount":{"amount":"5.0000","currencyCode":"INR"},"amount":{"amount":"0.0690","currencyCode":"USD"},"ccNumber":"411111xxxxxx1111","cardId":null,"destCCNumber":null,"previousTxId":"0b573d65-0e5d-4bd0-af28-5dbcf7363a1a"}}
+====End Log====
+
+
+2021-03-17 07:27:59 :: ====Start Log====
+{"Order Id":"164","Order Number":"164","Order Date":{"date":"2021-03-17 07:25:21.000000","timezone_type":1,"timezone":"+00:00"},"order status":"1","Transaction Id":"0b573d65-0e5d-4bd0-af28-5dbcf7363a1a","Transaction_type":"3","Recurrent Type":"1","ccnum":"","novatum Charge":"0.2484","Charge Currency":null}
+====End Log====
+
+
+2021-03-17 07:29:22 :: ====Start Log====
+Info: Beginning refund for order 164 for the amount of 18.00
+====End Log====
+
+
+2021-03-17 07:29:23 :: ====Start Log====
+{"apiType":"Refund","httpResponseCode":200,"response":{"responseTime":"2021-03-17 07:29:22","result":{"resultCode":"0","resultMessage":"Transaction failed.","errorId":"7023dda6-dcce-4583-a3e4-e068c9f6c060","error":[{"errorCode":"567","errorMessage":"PG_ERROR: Referred transaction request is invalid for given related transaction.","advice":"Transaction request cannot be possible or already performed."}],"reasonCode":"567"},"signature":"cFV5aMumpYO6lfTQvi6F8QXH7HEA029FM5PZNPYwoX0=","txId":"1e4fe8bc-73b6-48bf-8bbf-b4f355395409","txTypeId":"5","txType":"REFUND","recurrentTypeId":"1","requestId":"7_WPREFUNDORDER_164","orderId":"MTI3LjAuMC4xWPORDER_164","sourceAmount":{"amount":"18.00","currencyCode":"INR"},"amount":{"amount":"0","currencyCode":"USD"},"ccNumber":null,"cardId":null,"destCCNumber":null,"previousTxId":"0b573d65-0e5d-4bd0-af28-5dbcf7363a1a"}}
+====End Log====
+
+
+2021-03-17 07:30:08 :: ====Start Log====
+Info: Beginning refund for order 164 for the amount of 13.00
+====End Log====
+
+
+2021-03-17 07:30:10 :: ====Start Log====
+{"apiType":"Refund","httpResponseCode":200,"response":{"responseTime":"2021-03-17 07:30:10","result":{"resultCode":"1","resultMessage":"Transaction completed successfully.","errorId":null,"error":null,"reasonCode":"1"},"signature":"X4CzI+kFLdSmRsFuFv\/RwTkNTJWh3kAreg979I7mY9Q=","txId":"6ad2d60a-920e-4fd5-88af-066c7dc398a0","txTypeId":"5","txType":"REFUND","recurrentTypeId":"1","requestId":"4_WPREFUNDORDER_164","orderId":"MTI3LjAuMC4xWPORDER_164","sourceAmount":{"amount":"13.0000","currencyCode":"INR"},"amount":{"amount":"0.1794","currencyCode":"USD"},"ccNumber":"411111xxxxxx1111","cardId":null,"destCCNumber":null,"previousTxId":"0b573d65-0e5d-4bd0-af28-5dbcf7363a1a"}}
+====End Log====
+
+
+2021-03-17 07:30:27 :: ====Start Log====
+{"Order Id":"164","Order Number":"164","Order Date":{"date":"2021-03-17 07:25:21.000000","timezone_type":1,"timezone":"+00:00"},"order status":"1","Transaction Id":"0b573d65-0e5d-4bd0-af28-5dbcf7363a1a","Transaction_type":"3","Recurrent Type":"1","ccnum":"","novatum Charge":"0.2484","Charge Currency":null}
+====End Log====
+
+
+2021-03-17 07:32:11 :: ====Start Log====
+Info: Beginning refund for order 164 for the amount of 5.00
+====End Log====
+
+
+2021-03-17 07:32:12 :: ====Start Log====
+{"apiType":"Refund","httpResponseCode":200,"response":{"responseTime":"2021-03-17 07:32:12","result":{"resultCode":"0","resultMessage":"Transaction failed.","errorId":"3be981b9-e199-40bd-81e6-5b654019cd41","error":[{"errorCode":"567","errorMessage":"PG_ERROR: Referred transaction request is invalid for given related transaction.","advice":"Transaction request cannot be possible or already performed."}],"reasonCode":"567"},"signature":"upNhNooYm4fcMVtp74jUT6fzzGc9uOJYP7HcaNgCMjQ=","txId":"71247da1-f7c2-48e7-9713-a7a0162abe06","txTypeId":"5","txType":"REFUND","recurrentTypeId":"1","requestId":"1_WPREFUNDORDER_164","orderId":"MTI3LjAuMC4xWPORDER_164","sourceAmount":{"amount":"5.00","currencyCode":"INR"},"amount":{"amount":"0","currencyCode":"USD"},"ccNumber":null,"cardId":null,"destCCNumber":null,"previousTxId":"0b573d65-0e5d-4bd0-af28-5dbcf7363a1a"}}
+====End Log====
+
+
+2021-03-18 06:05:24 :: ====Start Log====
+Info: Beginning payment at payment gateway server
+====End Log====
+
+
+2021-03-18 06:05:24 :: ====Start Log====
+Info: Beginning Payment at Merchant side
+====End Log====
+
+
+2021-03-18 06:05:27 :: ====Start Log====
+{"apiType":"Payment at merchant","httpResponseCode":200,"response":{"responseTime":"2021-03-18 06:05:27","result":{"resultCode":"0","resultMessage":"Transaction failed.","errorId":"c57e3f46-2c34-4531-9e25-263adfdbfb79","error":[{"errorCode":"4031","errorMessage":"PG_ERROR: Request id already used in previous transaction.[requestId=MTI3LjAuMC4xWPORDER_170]","advice":null}],"reasonCode":"4031"},"signature":"eFK\/sAUegesY\/13wKX3GwsEicfERcpuFA\/beUGQ16J4=","metaData":null,"txId":"ed3c0118-d814-4167-810a-c4f13fcd4e69","txTypeId":"3","txType":"PURCHASE","recurrentTypeId":"1","requestId":"MTI3LjAuMC4xWPORDER_170","orderId":"MTI3LjAuMC4xWPORDER_170","sourceAmount":{"amount":"18.00","currencyCode":"INR"},"amount":{"amount":"18.00","currencyCode":"INR"},"returnUrl":null,"cancelUrl":null,"ccNumber":null,"cardId":null,"destCCNumber":null,"redirect3DUrl":null,"payUrl":null}}
+====End Log====
+
+
+2021-03-18 06:05:30 :: ====Start Log====
+{"apiType":"after payment at merchant","return url":"?page_id=61&responseTime=2021-03-18 06:05:27&txId=ed3c0118-d814-4167-810a-c4f13fcd4e69&txTypeId=3&recurrentTypeId=1&requestId=MTI3LjAuMC4xWPORDER_170&orderId=MTI3LjAuMC4xWPORDER_170&sourceAmount=&sourceCurrencyCode=&amount=18.00&cyCode=INR&resultCode=0&message=Transaction failed.&resultReasonCode=4031&ccNumber=&cardId=&signature=eFK\/sAUegesY\/13wKX3GwsEicfERcpuFA\/beUGQ16J4=&errorCode0=4031&errorMessage0=PG_ERROR: Request id already used in previous transaction.[requestId=MTI3LjAuMC4xWPORDER_170]&errorAdvice0="}
+====End Log====
+
+
+2021-03-18 06:05:31 :: ====Start Log====
+{"Order Id":"170","Order Number":"170","Order status":"0","Payment advice":"ADVICE : "}
+====End Log====
+
+
+2021-03-18 07:17:00 :: ====Start Log====
+Info: Beginning payment at payment gateway server
+====End Log====
+
+
+2021-03-18 07:17:00 :: ====Start Log====
+Info: Beginning Payment at Merchant side
+====End Log====
+
+
+2021-03-18 07:19:16 :: ====Start Log====
+Info: Beginning payment at payment gateway server
+====End Log====
+
+
+2021-03-18 07:19:16 :: ====Start Log====
+Info: Beginning Payment at Merchant side
+====End Log====
+
+
+2021-03-18 07:19:19 :: ====Start Log====
+{"apiType":"Payment at merchant","httpResponseCode":200,"response":{"responseTime":"2021-03-18 07:19:19","result":{"resultCode":"1","resultMessage":"Transaction completed successfully.","errorId":null,"error":[{"errorCode":"1","errorMessage":"Transaction completed successfully.","advice":null}],"reasonCode":"1"},"signature":"2QWSynSO8xsj5qaOw4ayACuLuhp9myrXzzFIhtPkvLU=","metaData":null,"txId":"cacfd13a-0b98-45c6-8f34-8dd4e8e06431","txTypeId":"3","txType":"PURCHASE","recurrentTypeId":"1","requestId":"MTI3LjAuMC4xWPORDER_171","orderId":"MTI3LjAuMC4xWPORDER_171","sourceAmount":{"amount":"18.0000","currencyCode":"INR"},"amount":{"amount":"0.2484","currencyCode":"USD"},"returnUrl":null,"cancelUrl":null,"ccNumber":"411111xxxxxx1111","cardId":null,"destCCNumber":null,"redirect3DUrl":null,"payUrl":null}}
+====End Log====
+
+
+2021-03-18 07:19:23 :: ====Start Log====
+{"apiType":"after payment at merchant","return url":"?page_id=63&responseTime=2021-03-18 07:19:19&txId=cacfd13a-0b98-45c6-8f34-8dd4e8e06431&txTypeId=3&recurrentTypeId=1&requestId=MTI3LjAuMC4xWPORDER_171&orderId=MTI3LjAuMC4xWPORDER_171&sourceAmount=&sourceCurrencyCode=&amount=0.2484&cyCode=USD&resultCode=1&message=Transaction completed successfully.&resultReasonCode=1&ccNumber=&cardId=&signature=2QWSynSO8xsj5qaOw4ayACuLuhp9myrXzzFIhtPkvLU=&errorCode0=1&errorMessage0=Transaction completed successfully.&errorAdvice0="}
+====End Log====
+
+
+2021-03-18 07:19:24 :: ====Start Log====
+{"Order Id":"171","Order Number":"171","Order Date":{"date":"2021-03-18 07:16:56.000000","timezone_type":1,"timezone":"+00:00"},"order status":"cancelled","Transaction Id":"cacfd13a-0b98-45c6-8f34-8dd4e8e06431","Transaction_type":"3","Recurrent Type":"1","ccnum":"","novatum Charge":"0.2484","Charge Currency":null}
+====End Log====
+
+
+2021-03-18 07:20:45 :: ====Start Log====
+Info: Beginning payment at payment gateway server
+====End Log====
+
+
+2021-03-18 07:20:45 :: ====Start Log====
+Info: Beginning Payment at Merchant side
+====End Log====
+
+
+2021-03-18 07:20:48 :: ====Start Log====
+{"apiType":"Payment at merchant","httpResponseCode":200,"response":{"responseTime":"2021-03-18 07:20:48","result":{"resultCode":"1","resultMessage":"Transaction completed successfully.","errorId":null,"error":[{"errorCode":"1","errorMessage":"Transaction completed successfully.","advice":null}],"reasonCode":"1"},"signature":"ROILGPflZpgDW1LIOG00uI9h7I7xErPig1YuZjI88zM=","metaData":null,"txId":"ed0190ca-f6c8-4fbd-953e-faaa8c3d6226","txTypeId":"3","txType":"PURCHASE","recurrentTypeId":"1","requestId":"MTI3LjAuMC4xWPORDER_172","orderId":"MTI3LjAuMC4xWPORDER_172","sourceAmount":{"amount":"18.0000","currencyCode":"INR"},"amount":{"amount":"0.2484","currencyCode":"USD"},"returnUrl":null,"cancelUrl":null,"ccNumber":"411111xxxxxx1111","cardId":null,"destCCNumber":null,"redirect3DUrl":null,"payUrl":null}}
+====End Log====
+
+
+2021-03-18 07:20:50 :: ====Start Log====
+{"apiType":"after payment at merchant","return url":"?page_id=61&responseTime=2021-03-18 07:20:48&txId=ed0190ca-f6c8-4fbd-953e-faaa8c3d6226&txTypeId=3&recurrentTypeId=1&requestId=MTI3LjAuMC4xWPORDER_172&orderId=MTI3LjAuMC4xWPORDER_172&sourceAmount=&sourceCurrencyCode=&amount=0.2484&cyCode=USD&resultCode=1&message=Transaction completed successfully.&resultReasonCode=1&ccNumber=&cardId=&signature=ROILGPflZpgDW1LIOG00uI9h7I7xErPig1YuZjI88zM=&errorCode0=1&errorMessage0=Transaction completed successfully.&errorAdvice0="}
+====End Log====
+
+
+2021-03-18 07:20:51 :: ====Start Log====
+{"Order Id":"172","Order Number":"172","Order Date":{"date":"2021-03-18 07:20:40.000000","timezone_type":1,"timezone":"+00:00"},"order status":"1","Transaction Id":"ed0190ca-f6c8-4fbd-953e-faaa8c3d6226","Transaction_type":"3","Recurrent Type":"1","ccnum":"","novatum Charge":"0.2484","Charge Currency":null}
+====End Log====
+
+
+2021-03-18 04:48:56 :: ====Start Log====
+Info: Beginning refund for order 172 for the amount of 18.00
+====End Log====
+
+
+2021-03-18 04:48:59 :: ====Start Log====
+{"apiType":"Refund","httpResponseCode":200,"response":{"responseTime":"2021-03-18 16:48:59","result":{"resultCode":"1","resultMessage":"Transaction completed successfully.","errorId":null,"error":null,"reasonCode":"1"},"signature":"uIqkdws0TmiXxZNmbBNNsx7YIhnipGKw5hVLlvBzOyw=","txId":"508654ea-b8e8-416e-b891-1c1346b3fc09","txTypeId":"5","txType":"REFUND","recurrentTypeId":"1","requestId":"7_WPREFUNDORDER_172","orderId":"MTI3LjAuMC4xWPORDER_172","sourceAmount":{"amount":"18.0000","currencyCode":"INR"},"amount":{"amount":"0.2484","currencyCode":"USD"},"ccNumber":"411111xxxxxx1111","cardId":null,"destCCNumber":null,"previousTxId":"ed0190ca-f6c8-4fbd-953e-faaa8c3d6226"}}
+====End Log====
+
+
+2021-03-23 06:07:22 :: ====Start Log====
+{"Order Id":"176","Order Number":"176","Order Date":{"date":"2021-03-23 06:06:53.000000","timezone_type":1,"timezone":"+00:00"},"Order Payment Status":"1","Transaction Id":"0c0fd244-e123-45ea-8908-55d66e619cef","Transaction_type":"3","Recurrent Type":"1","ccnum":"411111xxxxxx1111","novatum Charge":"0.2070","Charge Currency":null}
+====End Log====
+
+
+2021-03-23 06:16:28 :: ====Start Log====
+Info: Beginning payment at payment gateway server
+====End Log====
+
+
+2021-03-23 06:16:29 :: ====Start Log====
+Info: Beginning Payment at Merchant side
+====End Log====
+
+
+2021-03-23 06:16:35 :: ====Start Log====
+{"apiType":"Payment at merchant","httpResponseCode":200,"response":{"responseTime":"2021-03-23 06:16:35","result":{"resultCode":"1","resultMessage":"Transaction completed successfully.","errorId":null,"error":[{"errorCode":"1","errorMessage":"Transaction completed successfully.","advice":null}],"reasonCode":"1"},"signature":"CL20kGFR1x3LcArDIcUQT2D2\/Kses3NbKMK5NNfOBKA=","metaData":null,"txId":"054b63f1-fd78-497f-a73b-02b65b49e700","txTypeId":"3","txType":"PURCHASE","recurrentTypeId":"1","requestId":"MTI3LjAuMC4xWPORDER_177","orderId":"MTI3LjAuMC4xWPORDER_177","sourceAmount":{"amount":"15.0000","currencyCode":"INR"},"amount":{"amount":"0.2070","currencyCode":"USD"},"returnUrl":null,"cancelUrl":null,"ccNumber":"411111xxxxxx1111","cardId":null,"destCCNumber":null,"redirect3DUrl":null,"payUrl":null}}
+====End Log====
+
+
+2021-03-23 06:16:42 :: ====Start Log====
+{"apiType":"after payment at merchant","return url":"?page_id=61&responseTime=2021-03-23 06:16:35&txId=054b63f1-fd78-497f-a73b-02b65b49e700&txTypeId=3&recurrentTypeId=1&requestId=MTI3LjAuMC4xWPORDER_177&orderId=MTI3LjAuMC4xWPORDER_177&sourceAmount=&sourceCurrencyCode=&amount=0.2070&cyCode=USD&resultCode=1&message=Transaction completed successfully.&resultReasonCode=1&ccNumber=&cardId=&signature=CL20kGFR1x3LcArDIcUQT2D2\/Kses3NbKMK5NNfOBKA=&errorCode0=1&errorMessage0=Transaction completed successfully.&errorAdvice0="}
+====End Log====
+
+
+2021-03-23 06:16:44 :: ====Start Log====
+{"Order Id":"177","Order Number":"177","Order Date":{"date":"2021-03-23 06:16:14.000000","timezone_type":1,"timezone":"+00:00"},"Order Payment Status":"1","Transaction Id":"054b63f1-fd78-497f-a73b-02b65b49e700","Transaction_type":"3","Recurrent Type":"1","ccnum":"","novatum Charge":"0.2070","Charge Currency":null}
+====End Log====
+
+
+2021-03-23 10:46:01 :: ====Start Log====
+{"Order Id":"179","Order Number":"179","Order Date":{"date":"2021-03-23 10:39:37.000000","timezone_type":1,"timezone":"+00:00"},"Order Payment Status":"1","Transaction Id":"3c5e4f3e-4e4b-4379-83b4-9460404abe57","Transaction_type":"3","Recurrent Type":"1","ccnum":"411111xxxxxx1111","novatum Charge":"0.2581","Charge Currency":null}
+====End Log====
+
+
+2021-03-23 12:11:35 :: ====Start Log====
+{"Order Id":"180","Order Number":"180","Order Date":{"date":"2021-03-23 11:24:58.000000","timezone_type":1,"timezone":"+00:00"},"Order Payment Status":"1","Transaction Id":"6a8fdf2a-5fa7-4994-a213-055f76ba01d0","Transaction_type":"3","Recurrent Type":"1","ccnum":"411111xxxxxx1111","novatum Charge":"0.5009","Charge Currency":null}
+====End Log====
+
+
+2021-03-23 02:11:44 :: ====Start Log====
+{"Order Id":"182","Order Number":"182","Order Date":{"date":"2021-03-23 13:52:17.000000","timezone_type":1,"timezone":"+00:00"},"Order Payment Status":"1","Transaction Id":"1a95ac51-a5a3-4604-98e0-df8e6d944933","Transaction_type":"3","Recurrent Type":"1","ccnum":"411111xxxxxx1111","novatum Charge":"1.0019","Charge Currency":null}
+====End Log====
+
+
+2021-03-23 02:28:30 :: ====Start Log====
+{"Order Id":"184","Order Number":"184","Order Date":{"date":"2021-03-23 14:25:48.000000","timezone_type":1,"timezone":"+00:00"},"Order Payment Status":"1","Transaction Id":"7ffc6f2b-1a4a-48ab-b376-1c8a2ec2cdc1","Transaction_type":"3","Recurrent Type":"1","ccnum":"411111xxxxxx1111","novatum Charge":"1.0019","Charge Currency":null}
+====End Log====
+
+
+2021-03-23 03:20:29 :: ====Start Log====
+{"Order Id":"185","Order Number":"185","Order Date":{"date":"2021-03-23 15:19:45.000000","timezone_type":1,"timezone":"+00:00"},"Order Payment Status":"1","Transaction Id":"28ccea35-af5a-4271-8cd4-e0002e06af33","Transaction_type":"3","Recurrent Type":"1","ccnum":"411111xxxxxx1111","novatum Charge":"0.5009","Charge Currency":null}
+====End Log====
+
+
+2021-03-23 03:23:22 :: ====Start Log====
+{"Order Id":"186","Order Number":"186","Order Date":{"date":"2021-03-23 15:22:10.000000","timezone_type":1,"timezone":"+00:00"},"Order Payment Status":"1","Transaction Id":"90e55b08-d76a-447b-bfae-a04702467330","Transaction_type":"3","Recurrent Type":"1","ccnum":"411111xxxxxx1111","novatum Charge":"1.0019","Charge Currency":null}
+====End Log====
+
+
+2021-03-24 04:54:17 :: ====Start Log====
+{"Order Id":"186","Order Number":"186","Order Date":{"date":"2021-03-23 15:22:10.000000","timezone_type":1,"timezone":"+00:00"},"Order Payment Status":"1","Transaction Id":"90e55b08-d76a-447b-bfae-a04702467330","Transaction_type":"3","Recurrent Type":"1","ccnum":"411111xxxxxx1111","novatum Charge":"1.0019","Charge Currency":null}
+====End Log====
+
+
+2021-03-24 04:54:21 :: ====Start Log====
+{"Order Id":"185","Order Number":"185","Order Date":{"date":"2021-03-23 15:19:45.000000","timezone_type":1,"timezone":"+00:00"},"Order Payment Status":"1","Transaction Id":"28ccea35-af5a-4271-8cd4-e0002e06af33","Transaction_type":"3","Recurrent Type":"1","ccnum":"411111xxxxxx1111","novatum Charge":"0.5009","Charge Currency":null}
+====End Log====
+
+
+2021-03-26 07:45:29 :: ====Start Log====
+{"Order Id":"189","Order Number":"189","Order Date":{"date":"2021-03-26 07:44:49.000000","timezone_type":1,"timezone":"+00:00"},"Order Payment Status":"1","Transaction Id":"7d493935-2dbf-4fad-b5fc-e4b771b8f195","Transaction_type":"3","Recurrent Type":"1","ccnum":"411111xxxxxx1111","novatum Charge":"0.8501","Charge Currency":null}
+====End Log====
+
+
+2021-03-26 10:31:24 :: ====Start Log====
+{"Order Id":"192","Order Number":"192","Order Date":{"date":"2021-03-26 10:20:19.000000","timezone_type":1,"timezone":"+00:00"},"Order Payment Status":"1","Transaction Id":"5c2a1dae-7022-4c55-94e4-26295d2d870c","Transaction_type":"3","Recurrent Type":"1","ccnum":"411111xxxxxx1111","novatum Charge":"0.8015","Charge Currency":null}
+====End Log====
+
+
+2021-04-16 10:29:47 :: ====Start Log====
+{"Order Id":"194","Order Number":"194","Order Date":{"date":"2021-04-16 10:04:33.000000","timezone_type":1,"timezone":"+00:00"},"Order Payment Status":"1","Transaction Id":"b14828ef-58cd-498e-9c22-5639436ce1d0","Transaction_type":"3","Recurrent Type":"1","ccnum":"411111xxxxxx1111","novatum Charge":"1.1497","Charge Currency":null}
+====End Log====
+
+
+2021-04-16 10:31:04 :: ====Start Log====
+{"Order Id":"194","Order Number":"194","Order Date":{"date":"2021-04-16 10:04:33.000000","timezone_type":1,"timezone":"+00:00"},"Order Payment Status":"1","Transaction Id":"b14828ef-58cd-498e-9c22-5639436ce1d0","Transaction_type":"3","Recurrent Type":"1","ccnum":"411111xxxxxx1111","novatum Charge":"1.1497","Charge Currency":"USD"}
+====End Log====
+
+
+2021-04-19 08:46:55 :: ====Start Log====
+{"Order Id":"196","Order Number":"196","Order Date":{"date":"2021-04-19 08:46:17.000000","timezone_type":1,"timezone":"+00:00"},"Order Payment Status":"1","Transaction Id":"0140ab80-a55c-4fd4-8013-8b4e5b540cba","Transaction_type":"3","Recurrent Type":"1","ccnum":"411111xxxxxx1111","novatum Charge":"0.4864","Charge Currency":"USD"}
+====End Log====
+
+
+2021-04-19 10:16:09 :: ====Start Log====
+{"Order Id":"196","Order Number":"196","Order Date":{"date":"2021-04-19 08:46:17.000000","timezone_type":1,"timezone":"+00:00"},"Order Payment Status":"1","Transaction Id":"0140ab80-a55c-4fd4-8013-8b4e5b540cba","Transaction_type":"3","Recurrent Type":"1","ccnum":"411111xxxxxx1111","novatum Charge":"0.4864","Charge Currency":"USD"}
+====End Log====
+
+
+2021-04-19 10:16:47 :: ====Start Log====
+{"Order Id":"196","Order Number":"196","Order Date":{"date":"2021-04-19 08:46:17.000000","timezone_type":1,"timezone":"+00:00"},"Order Payment Status":"1","Transaction Id":"0140ab80-a55c-4fd4-8013-8b4e5b540cba","Transaction_type":"3","Recurrent Type":"1","ccnum":"411111xxxxxx1111","novatum Charge":"0.4864","Charge Currency":"USD"}
+====End Log====
+

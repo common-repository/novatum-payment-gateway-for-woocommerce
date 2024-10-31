@@ -1,0 +1,239 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-BNovatum Gatewayugs-To: \n"
+"POT-Creation-Date: 2020-07-02 11:16+0530\n"
+"PO-Revision-Date: 2020-07-02 11:17+0500\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Eazy Po 0.9.5.3\n"
+
+msgid "Novatum Gateway"
+msgstr ""
+
+msgid "Novatum payment gateway for woocommerce"
+msgstr ""
+
+msgid "Novatum payment gateway is enabled and the <a "
+"href=\"%s\" target=\"_blank\">force SSL option</a> is disabled; your checkout is not secure! Please enable SSL and ensure your server has a valid SSL certificate"
+msgstr ""
+
+msgid "Thank you for your order, please wait as you will be automatically redirected to Novatum"
+msgstr ""
+
+msgid "Novatum Payment Gateway Configuration not valid"
+msgstr ""
+
+msgid "Online payment"
+msgstr ""
+
+msgid "Card Number is a required field"
+msgstr ""
+
+msgid "Card Holder Name is a required field"
+msgstr ""
+
+msgid "Card Holder Name can contain only alphabetic"
+msgstr ""
+
+msgid "Card Holder Name length can be minimum 4 characters and maximum 30 characters"
+msgstr ""
+
+msgid "Card expiry date is a required field"
+msgstr ""
+
+msgid "Card expiry date is invalid"
+msgstr ""
+
+msgid "Card expiry date is invalid"
+msgstr ""
+
+msgid "Card expiry date is invalid"
+msgstr ""
+
+msgid "Card CVV number is a required field"
+msgstr ""
+
+msgid "Card CVV/CVC number is invalid"
+msgstr ""
+
+msgid "Invalid Card Number"
+msgstr ""
+
+msgid "Invalid Card Number"
+msgstr ""
+
+msgid "Card Number"
+msgstr ""
+
+msgid "Card Holder Name"
+msgstr ""
+
+msgid "Expiry Date"
+msgstr ""
+
+msgid "Card Code (CVC)"
+msgstr ""
+
+msgid "Note: Your credit/debit card may be charged in other currency than the currency of your bank. In case the currency of your bank is different from processing currency, the card issuing bank will apply its own conversion rate. Currency conversion rate may take place"
+msgstr ""
+
+msgid "We are currently experiencing problems trying to connect to this payment gateway. Sorry for the inconvenience"
+msgstr ""
+
+msgid "Novatum\'s Response was empty"
+msgstr ""
+
+msgid "Novatum payment completed. Transaction ID "
+msgstr ""
+
+msgid "Payment through Card can not be done if SSL is not enabled"
+msgstr ""
+
+msgid "Plugin is either not enabled"
+msgstr ""
+
+msgid "Payment through Card can not be done if SSL is not enabled"
+msgstr ""
+
+msgid "Novatum: The amount is already refunded"
+msgstr ""
+
+msgid "We are currently experiencing problems trying to connect to this payment gateway. Sorry for the inconvenience"
+msgstr ""
+
+msgid "Novatum\'s Response was empty"
+msgstr ""
+
+msgid "Novatum refund completed. Transaction has been approved"
+msgstr ""
+
+msgid "Reason"
+msgstr ""
+
+msgid "Refund Transaction ID"
+msgstr ""
+
+msgid "Novatum refund error. Response data"
+msgstr ""
+
+msgid "Novatum refund error. Refund can not be processed"
+msgstr ""
+
+msgid "Thank you for shopping with us"
+msgstr ""
+
+msgid "Thank you for shopping with us. However, the transaction has been declined"
+msgstr ""
+
+msgid "Enable/Disable"
+msgstr ""
+
+msgid "Enable Novatum Gateway"
+msgstr ""
+
+msgid "Title"
+msgstr ""
+
+msgid "This controls the title which the user sees during checkout"
+msgstr ""
+
+msgid "Pay via Credit Card"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "This controls the description which the user sees during checkout"
+msgstr ""
+
+msgid "Pay with your credit card via our novatum payment gateway"
+msgstr ""
+
+msgid "Hosted at Merchant"
+msgstr ""
+
+msgid "Payment at Merchant Side"
+msgstr ""
+
+msgid "Merchant provide payment card detail along with order details"
+msgstr ""
+
+msgid "Novatum Sandbox"
+msgstr ""
+
+msgid "Enable Sandbox Mode"
+msgstr ""
+
+msgid "Place the payment gateway in sandbox mode using test API keys"
+msgstr ""
+
+msgid "API credentials"
+msgstr ""
+
+msgid "Enter your Novatum API credentials to process. Learn how to access your <a "
+"href=\"%s\" target=\"_blank\">Novatum API Credentials</a>"
+msgstr ""
+
+msgid "SANDBOX MODE ENABLED. In test mode, you can use the card numbers listed in <a "
+"href=\"%s\" target=\"_blank\">documentation</a>"
+msgstr ""
+
+msgid "Sandbox Merchant Id"
+msgstr ""
+
+msgid "Required"
+msgstr ""
+
+msgid "Sandbox Merchant Account Id"
+msgstr ""
+
+msgid "Sandbox Merchant Account Key"
+msgstr ""
+
+msgid "Sandbox Merchant Account User Name"
+msgstr ""
+
+msgid "Sandbox Merchant Account Password"
+msgstr ""
+
+msgid "Merchant Id"
+msgstr ""
+
+msgid "Merchant Account Id"
+msgstr ""
+
+msgid "Merchant Account Key"
+msgstr ""
+
+msgid "Merchant Account User Name"
+msgstr ""
+
+msgid "Merchant Account Password"
+msgstr ""
+
+msgid "Redirection Rule"
+msgstr ""
+
+msgid "Set the redirection page Id once an order is successfully placed or failed"
+msgstr ""
+
+msgid "Return or Success Page"
+msgstr ""
+
+msgid "URL of return/success page"
+msgstr ""
+
+msgid "Cancel Page"
+msgstr ""
